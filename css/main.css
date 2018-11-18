@@ -1,0 +1,201 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  /*background-image: url("../img/BG.png");*/
+  background-image: linear-gradient(to bottom, #5bbd72, #105285);
+  background-size: 100%;
+  text-align: center;
+  /*padding-top: 5em;*/
+  color: white;
+  min-height: 100vh;
+}
+
+p {
+  width: 50%;
+  margin: auto;
+  padding-top: 25px;
+  text-align: justify;
+}
+
+ul {
+  max-width: 50%;
+  margin: auto;
+}
+
+li{
+  text-align: left;
+}
+
+/*a:link, a:visited, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5bbd72;
+}*/
+
+.tagline {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  color: #eee;
+
+  line-height: 1em;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.headerImg {
+  height: 150px;
+  margin-top:7em;
+}
+
+.header {
+  background-color: #444;
+  width: 100%;
+  padding: 25px;
+  line-height: 0px;
+  top: 0px;
+}
+
+.line {
+  height: 0px;
+  width: 50%;
+  border: 0.5px solid #ae301e;
+  margin: 25px auto;
+}
+
+footer {
+  left: 0;
+  bottom: 25px;
+  width: 100%;
+  position: fixed;
+  color: #872C20;
+}
+
+/*LINKS*/
+
+.howto {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 525px;
+  
+  color: #eee;
+  padding: 10px;
+}
+
+.howto:hover {
+  background-color: #eee;
+  color: #5bbd72;
+}
+
+.about {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 459px;
+  
+  color: #eee;
+  padding: 10px;
+}
+
+.about:hover {
+  background-color: #eee;
+  color: #5bbd72;
+}
+
+.shop {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 400px;
+  
+  color: #eee;
+  padding: 10px;
+}
+
+.shop:hover {
+  background-color: #eee;
+  color: #5bbd72;
+}
+
+.home {
+  display: block;
+  position: absolute;
+  top: 48px;
+  right: 360px;
+  
+  color: #eee;
+  padding: 10px;
+}
+
+/*END LINKS*/
+
+.button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 30px 5px;
+  border-radius: 25px;
+  background-color: #ff0066;
+}
+
+.subcon {
+  display: block;
+  padding-top: 100px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/*SHOP*/
+
+.shopcon {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+	margin-left: 15%;
+	margin-right: 15%;
+	
+	padding-top: 120px;
+	/*border: 1px solid red;*/
+}
+
+.item {
+	position: relative;
+	margin-bottom: -5px;
+}
+
+.info {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 250px;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #000;
+}
+
+.item:hover .info {
+	opacity: 0.5;
+}
+
+.text {
+	color: white;
+	font-size: 40px;
+	font-family: "Bebas Neue";
+	
+	line-height: 250px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#shopimg {
+    max-width: 250px;
+}
+
+/*END SHOP*/
